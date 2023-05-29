@@ -29,7 +29,7 @@ class Car{
         return self::$instance;
     }
 }
-
+echo "123";
 $car  = Car::getInstance();
 $car->setName('car');
 echo $car->getName().'<br />';
